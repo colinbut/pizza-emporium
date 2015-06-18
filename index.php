@@ -5,26 +5,26 @@
 </head>
 <body>
 
+	<h1>Pizza Emporium</h1>
+	<a href="pizzaOrder.html">Order</a>
+
 	<div>
-		<h1>Pizza Emporium</h1>
-		<h6>A very simple version</h6>
-		<p><em>Please fill in the order form to order a pizza.</em></p>
-		<form method="POST" action="index.php">
-			<table>
-				<tr>
-					<td><label>Customer Name:</label></td>
-					<td><input type="text" name="customerName" /></td>
-				</tr>
-				<tr>
-					<td><label>Customer Phone Number:</label></td>
-					<td><input type="text" name="customerPhoneNumber" /></td>
-				</tr>
-				<tr>
-					<td><label>Customer Address:</label></td>
-					<td><textarea></textarea></td>
-				</tr>
-			</table>
-		</form>
+		<table>
+			<tr>
+				<th>Order Id</th>
+				<th>Order Date</th>
+				<th>Order Status</th>
+				<th>Estimated Time Left</th>
+				<th>Action</th>
+			</tr>
+			<tr>
+				<td>Order #1</td>
+				<td>2015-06-19</td>
+				<td>in progress</td>
+				<td>10 minutes</td>
+				<td><img src="" alt="Delete" /></td>
+			</tr>
+		</table>
 	</div>
 
 </body>

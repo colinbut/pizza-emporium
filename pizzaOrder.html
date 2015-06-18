@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pizza Emporium</title>
+</head>
+<body>
+
+	<div>
+		<h1>Pizza Emporium</h1>
+		<h4>A very simple version</h4>
+		<p><em>Please fill in the order form to order a pizza.</em></p>
+		<form method="POST" action="pizzaOrder.php">
+			<table>
+				<tr>
+					<td><label>Customer Name:</label></td>
+					<td><input type="text" name="customerName" /></td>
+				</tr>
+				<tr>
+					<td><label>Customer Phone Number:</label></td>
+					<td><input type="text" name="customerPhoneNumber" /></td>
+				</tr>
+				<tr>
+					<td><label>Customer Address:</label></td>
+					<td><textarea></textarea></td>
+				</tr>
+				<tr>
+					<td><label>Pizza Base:</label></td>
+					<td>
+						<!-- radio buttons -->
+					</td>
+				</tr>
+				<tr>
+					<td><label>Pizza Size:</label></td>
+					<td>
+						<!-- radio buttons -->
+					</td>
+				</tr>
+				<tr>
+					<td><label>Pizza Toppings:</label></td>
+					<td>
+						<select multiple="true">
+							<option>Pepperoni</option>
+							<option>Oregano</option>
+							<option>Salami</option>
+							<option>Ham</option>
+							<option>Pineapple</option>
+							<option>Mushroom</option>
+							<option>Chicken</option>
+							<option>Sweetcorn</option>
+							<option>Peppers</option>
+							<option>Onions</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td><label>Notes/Comments:</label></td>
+					<td><textarea></textarea></td>
+				</tr>
+				<tr>
+					<td><label>Order Type:</label></td>
+					<td>
+						<!-- radio buttons -->
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="submit" value="Order" /></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+
+</body>
+</html>
